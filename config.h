@@ -75,9 +75,9 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] =
     "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = {"dmenu_run",    "-fn", dmenufont,   "-nb",
-                                 normbgcolor,    "-nf", normfgcolor, "-sb",
-                                 selbordercolor, "-sf", selfgcolor,  NULL};
+static const char *dmenucmd[] = {"dmenu_run", "-fn", dmenufont,   "-nb",
+                                 normbgcolor, "-nf", normfgcolor, "-sb",
+                                 selbgcolor,  "-sf", selfgcolor,  NULL};
 static const char *termcmd[] = {"wezterm", NULL};
 
 static const Key keys[] = {
